@@ -1,4 +1,4 @@
-**1-Data definition language (DDL): CREATE,ALTER,DROP,RENAME,TRUNCATE**
+/*1-Data definition language (DDL): CREATE,ALTER,DROP,RENAME,TRUNCATE*/
 
 CREATE object_type object_name;
 CREATE TABLE object_name(column_name data_type);
@@ -17,7 +17,7 @@ TRUNCATE object_type object_name;
 TRUNCATE TABLE Customers;
 
 
-**2-Data manipulation language (DML):SELECT, INSERT, UPDATE, DELETE**
+/*2-Data manipulation language (DML):SELECT, INSERT, UPDATE, DELETE*/
 
 SELECT.. FROM  ..;
 SELECT * FROM sales;
@@ -39,7 +39,7 @@ DELETE FROM .. WHERE..;
 DELETE FROM sales;
 Where  purchase_number=1;
 
-**3-Data control language (DCL):GRANT, REVOKE**
+/*3-Data control language (DCL):GRANT, REVOKE*/
 
 GRANT type_of_permission 
 ON database_name.table_name TO 'username'@'localhost';
@@ -57,7 +57,7 @@ REVOKE type_of_permission ON database_name.table_name FROM
 REVOKE  SELECT ON sales.customers FROM 'frank'@'localhost';
 
 
-**4-Transaction control language (TCL)**
+/*4-Transaction control language (TCL)*/
 
 -the COMMIT statement: committed states can accrue
 
