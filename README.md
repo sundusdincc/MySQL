@@ -1,1 +1,2 @@
 # MySQL
+MySQL is an open-source relational database management system (RDBMS) that is widely used for managing and storing data. It is one of the most popular database systems in the world, known for its reliability, scalability, and performance. MySQL is often used in web applications, content management systems, e-commerce platforms, and a wide range of other software applications where structured data needs to be stored and retrieved efficiently.
