@@ -153,3 +153,7 @@ SELECT SupplierName
 FROM Suppliers
 WHERE EXISTS (SELECT ProductName FROM Products WHERE Products.SupplierID = Suppliers.supplierID AND Price = 22);
 
+--CONCAT: In MySQL, the CONCAT() function is used to concatenate (join together) two or more strings into a single string.
+SELECT CONCAT(first_name, ' ', last_name) AS full_name
+FROM employees;
+
