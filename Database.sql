@@ -1,3 +1,4 @@
+-- language: sql
 --DB
 CREATE DATABASE testDB;
 DROP DATABASE testDB;
